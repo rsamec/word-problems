@@ -10,7 +10,7 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
-  devtool: 'source-map',
+  devtool: 'eval-cheap-module-source-map',
   // Enable webpack-dev-server to get hot refresh of the app.
   devServer: {
     static: './build',
