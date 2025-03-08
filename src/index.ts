@@ -32,6 +32,7 @@ const createRatios = (args:[string, string[], number[]]) => ratios(...args);
 const createNthPart = (arg:string) => nthPart(arg);
 const createSum = (args:[string, string[], string, string]) => sum(...args);
 
+console.log([createCont,createComp,createCompRatio,createRate, createRate,createRatios,createNthPart,createSum, inferenceRule]);
 // Register the blocks and generator with Blockly
 Blockly.common.defineBlocks(blocks);
 Object.assign(javascriptGenerator.forBlock, forBlock);
